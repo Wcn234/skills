@@ -1,6 +1,8 @@
 # Codex Skills
 
-A collection of reusable Codex skills.
+A collection repository for reusable Codex skills.
+
+This repository is intended to hold multiple skills over time. Each skill lives in its own folder under `skills/`, and `rivta-blog-publisher` is the first skill currently included.
 
 ## Skills
 
@@ -12,14 +14,17 @@ A collection of reusable Codex skills.
 
 ```text
 codex-skills/
+  README.md
+  LICENSE
   skills/
+    README.md
     rivta-blog-publisher/
       SKILL.md
       agents/
       references/
 ```
 
-## Install a Skill
+## Install One Skill
 
 Copy the skill folder into your local Codex skills directory.
 
@@ -37,7 +42,7 @@ cp -R ./skills/rivta-blog-publisher ~/.codex/skills/rivta-blog-publisher
 
 Restart Codex after installing or updating a skill so Codex can reload the metadata.
 
-## Add a New Skill
+## Add Another Skill
 
 Add each skill as its own folder under `skills/`:
 
@@ -52,6 +57,8 @@ skills/
 ```
 
 Only `SKILL.md` is required. The other folders are optional and should be included only when the skill needs them.
+
+After adding a skill, update the table in this README and `skills/README.md`.
 
 ## License
 
