@@ -1,0 +1,22 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+tmp/
+temp/
+
+# Local environment
+.env
+.env.*
+
+# Generated output examples
+dist/
+build/
