@@ -1,0 +1,4 @@
+interface:
+  display_name: "Rivta Blog Publisher"
+  short_description: "Generate and QA Rivta blog HTML"
+  default_prompt: "Use $rivta-blog-publisher to generate a Rivta-style blog HTML file and check the live URL for SEO/schema issues."
